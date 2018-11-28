@@ -1,4 +1,6 @@
-# DEV337-R1 - Set up a Serverless App Using React and AWS Amplify
+# DEV337-R1 - Cloud Native App Dev with AWS Amplify and React
+
+![Github Repo URL](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fdave-malone%2Freact-amplified-demo&chs=180x180&choe=UTF-8&chld=L|2)
 
 The following demonstration includes the use of AWS Cloud9, a cloud-based IDE, to build a fully serverless cloud native application in React using the Amplify toolchain as well as the Amplify Javascript library.
 
@@ -6,7 +8,6 @@ Through this demo, you will see how easy it is to build a fully functional, secu
 
 AWS Amplify is a Javascript library for frontend and mobile developers building cloud-enabled applications. The default implementation works with AWS, but it is designed to be open and pluggable for any custom backend or service.
 
-![Github Repo URL](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fdave-malone%2Freact-amplified-demo&chs=180x180&choe=UTF-8&chld=L|2)
 
 ## Cloud9 Setup
 
