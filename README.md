@@ -33,8 +33,7 @@ amplify configure
 5. `amplify add hosting`
 6. `amplify status`
 7. `amplify publish`
-8. `amplify run`
-9. At this point, there's nothing really interesting about this app. Let's require auth for accessing our webapp, and add user signup / signin capabilities
+8. At this point, there's nothing really interesting about this app. Let's require auth for accessing our webapp, and add user signup / signin capabilities
 
 ### Enable User Signup / Signin
 1. `amplify add auth`
