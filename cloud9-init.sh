@@ -25,3 +25,9 @@ npm install -g @aws-amplify/cli
 
 echo Upgrading AWS CLI
 pip install awscli --upgrade --user
+
+nvm --version
+node --version
+yarn --version
+amplify --version
+aws --version
