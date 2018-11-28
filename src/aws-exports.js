@@ -8,7 +8,9 @@ const awsmobile =  {
     "aws_user_pools_web_client_id": "6h7j34t0ddv8pccnsin68l82of",
     "aws_content_delivery_bucket": "demoapp1-20181127183735--hostingbucket",
     "aws_content_delivery_bucket_region": "us-east-1",
-    "aws_content_delivery_url": "http://demoapp1-20181127183735--hostingbucket.s3-website-us-east-1.amazonaws.com"
+    "aws_content_delivery_url": "http://demoapp1-20181127183735--hostingbucket.s3-website-us-east-1.amazonaws.com",
+    "aws_user_files_s3_bucket": "demoapp17066b9d9e84445deb95a005e1c3c8532",
+    "aws_user_files_s3_bucket_region": "us-east-1"
 };
 
 

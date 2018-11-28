@@ -134,6 +134,21 @@
 				"TemplateURL": "https://s3.amazonaws.com/demoapp1-20181127181048-deployment/amplify-cfn-templates/hosting/template.json",
 				"Parameters": {}
 			}
+		},
+		"storagedemoapp1": {
+			"Type": "AWS::CloudFormation::Stack",
+			"Properties": {
+				"TemplateURL": "https://s3.amazonaws.com/demoapp1-20181127181048-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"Parameters": {
+					"bucketName": "demoapp17066b9d9e84445deb95a005e1c3c8532",
+					"authPolicyName": "s3_amplify_7bc4729d",
+					"unauthPolicyName": "s3_amplify_7bc4729d",
+					"authRoleName": "demoapp1-20181127181048-authRole",
+					"unauthRoleName": "demoapp1-20181127181048-unauthRole",
+					"authPermissions": "rw",
+					"unauthPermissions": ""
+				}
+			}
 		}
 	},
 	"Outputs": {
