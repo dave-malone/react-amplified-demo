@@ -1,4 +1,4 @@
-#
+# DEV337-R1 - Set up a Serverless App Using React and AWS Amplify
 
 The following demonstration includes the use of AWS Cloud9, a cloud-based IDE, to build a fully serverless cloud native application in React using the Amplify toolchain as well as the Amplify Javascript library.
 
