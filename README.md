@@ -7,27 +7,11 @@ AWS Amplify is a Javascript library for frontend and mobile developers building 
 
 ## Cloud9 Setup
 
-When starting with a fresh Cloud9 environment, you will need to install a few tools for use with this demo. 
+When starting with a fresh Cloud9 environment, you will need to install a few tools for use with this demo. A convenience script has been included with this repo to help you get up and running. 
 
 ```bash
-# Install NVM
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-nvm --version 
-
-# Install Node 
-nvm install node
-node --version
-
-# Install Yarn
-curl --silent --location https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
-sudo yum install yarn
-yarn --version
-
-# Install Amplify CLI
-npm install -g @aws-amplify/cli
-
-# Upgrade AWS CLI
-pip install awscli --upgrade --user
+git clone https://github.com/dave-malone/react-amplified-demo
+./cloud9-init.sh
 ```
 
 ### Configure your environment for use with the Amplify CLI
@@ -118,9 +102,6 @@ amplify configure
     }
   ```
 5. `amplify publish`
-
- 
-
 
 
 

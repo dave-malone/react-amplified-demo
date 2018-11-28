@@ -6,6 +6,8 @@ nvm --version
 
 echo Installing Node 
 nvm install node
+nvm use node 
+nvm alias default node
 node --version
 
 echo Installing Yarn
