@@ -10,22 +10,22 @@ export NVM_DIR="$HOME/.nvm"
 nvm --version 
 
 echo Installing Node 
-nvm install node
-nvm use node 
-nvm alias default node
-node --version
+nvm install --lts
 
 echo Installing Yarn
 curl --silent --location https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
 sudo yum install -y yarn
-yarn --version
 
 
 echo Upgrading AWS CLI
 pip install awscli --upgrade --user
+
+npm install -g @aws-amplify/cli
+
 
 echo "node version: $(node --version)"
 echo "npm version: $(npm --version)"
 echo "nvm version: $(nvm --version)"
 echo "yarn version: $(yarn --version)"
 echo "awscli version: $(aws --version)"
+echo "amplify version: $(amplify --version)"
