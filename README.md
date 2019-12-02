@@ -14,9 +14,8 @@ AWS Amplify is a Javascript library for frontend and mobile developers building 
 When starting with a fresh Cloud9 environment, you will need to install a few tools for use with this demo. A convenience script has been included with this repo to help you get up and running. 
 
 ```bash
-curl -s -L https://git.io/JeM6t | bash
 git clone https://github.com/dave-malone/react-amplified-demo dop334
-./dop334/cloud9-init.sh
+curl -s -L https://git.io/JeM6t | bash
 ```
 
 ### Configure your environment for use with the Amplify CLI
