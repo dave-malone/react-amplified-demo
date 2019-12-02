@@ -86,6 +86,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.albumRef = React.createRef()
+    this.uploadFile = this.uploadFile.bind(this);
   }
   
   uploadFile = (evt) => {
