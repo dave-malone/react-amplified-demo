@@ -22,6 +22,9 @@ pip install awscli --upgrade --user
 
 npm install -g @aws-amplify/cli
 
+echo "Creating Symlink for Cloud9 & Amplify..."
+ln -s ~/.aws/credentials ~/.aws/config
+
 
 echo "node version: $(node --version)"
 echo "npm version: $(npm --version)"
@@ -29,3 +32,5 @@ echo "nvm version: $(nvm --version)"
 echo "yarn version: $(yarn --version)"
 echo "awscli version: $(aws --version)"
 echo "amplify version: $(amplify --version)"
+
+echo "Environment initialized"
