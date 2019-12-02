@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo Installing NVM
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -26,8 +26,8 @@ npm install -g @aws-amplify/cli
 echo Upgrading AWS CLI
 pip install awscli --upgrade --user
 
-nvm --version
-node --version
-yarn --version
-amplify --version
-aws --version
+echo "nvm version: $(nvm --version)"
+echo "node version: $(node --version)"
+echo "yarn version: $(yarn --version)"
+echo "amplify version: $(amplify --version)"
+echo "awscli version: $(aws --version)"
