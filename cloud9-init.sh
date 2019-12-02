@@ -20,8 +20,6 @@ curl --silent --location https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yu
 sudo yum install -y yarn
 yarn --version
 
-echo Installing Amplify CLI
-npm install -g @aws-amplify/cli
 
 echo Upgrading AWS CLI
 pip install awscli --upgrade --user
@@ -29,5 +27,4 @@ pip install awscli --upgrade --user
 echo "nvm version: $(nvm --version)"
 echo "node version: $(node --version)"
 echo "yarn version: $(yarn --version)"
-echo "amplify version: $(amplify --version)"
 echo "awscli version: $(aws --version)"

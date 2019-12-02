@@ -18,11 +18,14 @@ git clone https://github.com/dave-malone/react-amplified-demo dop334
 ./dop334/cloud9-init.sh
 ```
 
-### Configure your environment for use with the Amplify CLI
+### Install the Amplify CLI and Configure your environment for use with the Amplify CLI
 
-```
+```bash 
+npm install -g @aws-amplify/cli
+echo "amplify version: $(amplify --version)"
 amplify configure
 ```
+
 
 ### Create the project React project and begin integrating with AWS via Amplify
 1. `yarn create react-app react-amplified`
