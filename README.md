@@ -18,9 +18,11 @@ git clone https://github.com/dave-malone/react-amplified-demo dop334
 curl -s -L https://git.io/JeM6t | bash
 ```
 
-### Configure your environment for use with the Amplify CLI
+### Install Amplify and Configure your environment for use with the Amplify CLI
 
 ```bash 
+npm install -g @aws-amplify/cli
+echo "amplify version: $(amplify --version)"
 amplify configure
 ```
 
