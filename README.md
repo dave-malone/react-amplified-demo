@@ -109,6 +109,11 @@ amplify configure
   ```
 5. `amplify publish`
 
+### Cleanup
+
+```bash 
+amplify delete
+```
 
 
 ## Resources
