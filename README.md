@@ -14,9 +14,8 @@ AWS Amplify is a Javascript library for frontend and mobile developers building 
 When starting with a fresh Cloud9 environment, you will need to install a few tools for use with this demo. A convenience script has been included with this repo to help you get up and running. 
 
 ```bash
-git clone https://github.com/dave-malone/react-amplified-demo
-cd react-amplified-demo 
-./cloud9-init.sh
+git clone https://github.com/dave-malone/react-amplified-demo dop334
+./dop334/cloud9-init.sh
 ```
 
 ### Configure your environment for use with the Amplify CLI
@@ -26,8 +25,8 @@ amplify configure
 ```
 
 ### Create the project React project and begin integrating with AWS via Amplify
-1. `yarn create react-app myapp`
-2. `cd myapp`
+1. `yarn create react-app react-amplified`
+2. `cd react-amplified`
 3. `amplify init`
 4. `amplify run`
 5. `amplify add hosting`
