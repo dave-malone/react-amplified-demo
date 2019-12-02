@@ -72,30 +72,31 @@ amplify configure
 ### Create an S3 backed photo album
 1. `amplify add storage`
 2. `amplify push`
-3. in App.js add:
+3. Replace the contents of App.js with:
   ```javascript
-  import { Storage } from 'aws-amplify';
-  import { S3Album } from 'aws-amplify-react';
-  
-  Storage.configure({ level: 'private' });
-  ...
-
-  constructor(props) {
-    super(props)
-    this.albumRef = React.createRef()
-  }
-  
-  uploadFile = (evt) => {
-    const file = evt.target.files[0];
-    const key_prefix = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)
-    const key = `${key_prefix}-${file.name}`
-  
-    Storage.put(key, file).then(() => {
-      this.albumRef.current.list()
-    })
-  }
-
-  ...
+    import React from 'react';
+    import logo from './logo.svg';
+    import './App.css';
+    import { Storage } from 'aws-amplify';
+    import { S3Album } from 'aws-amplify-react';
+    
+    Storage.configure({ level: 'private' });
+    
+    constructor(props) {
+      super(props)
+      this.albumRef = React.createRef()
+    }
+    
+    uploadFile = (evt) => {
+      const file = evt.target.files[0];
+      const key_prefix = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)
+      const key = `${key_prefix}-${file.name}`
+    
+      Storage.put(key, file).then(() => {
+        this.albumRef.current.list()
+      })
+    }
+    
     render() {
         return (
           <div className="App">
@@ -105,6 +106,8 @@ amplify configure
           </div>
       )
     }
+    
+    export default App;
   ```
 4. `amplify publish`
 
