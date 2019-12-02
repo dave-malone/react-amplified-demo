@@ -1,4 +1,4 @@
-# DEV337-R1 - Cloud Native App Dev with AWS Amplify and React
+# DOP334-R - Cloud Native App Dev with AWS Amplify and React
 
 ![Github Repo URL](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fdave-malone%2Freact-amplified-demo&chs=180x180&choe=UTF-8&chld=L|2)
 
