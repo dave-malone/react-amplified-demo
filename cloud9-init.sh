@@ -24,7 +24,8 @@ yarn --version
 echo Upgrading AWS CLI
 pip install awscli --upgrade --user
 
-echo "nvm version: $(nvm --version)"
 echo "node version: $(node --version)"
+echo "npm version: $(npm --version)"
+echo "nvm version: $(nvm --version)"
 echo "yarn version: $(yarn --version)"
 echo "awscli version: $(aws --version)"
