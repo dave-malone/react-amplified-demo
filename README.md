@@ -72,8 +72,7 @@ amplify configure
 ### Create an S3 backed photo album
 1. `amplify add storage`
 2. `amplify push`
-3. `amplify run`
-4. in App.js add:
+3. in App.js add:
   ```javascript
   import { Storage } from 'aws-amplify';
   import { S3Album } from 'aws-amplify-react';
@@ -107,7 +106,7 @@ amplify configure
       )
     }
   ```
-5. `amplify publish`
+4. `amplify publish`
 
 ### Cleanup
 
