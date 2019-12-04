@@ -2,6 +2,8 @@
 
 ![Github Repo URL](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fdave-malone%2Freact-amplified-demo&chs=180x180&choe=UTF-8&chld=L|2)
 
+https://git.io/JeD21
+
 The following demonstration includes the use of AWS Cloud9, a cloud-based IDE, to build a fully serverless cloud native application in React using the Amplify toolchain as well as the Amplify Javascript library.
 
 Through this demo, you will see how easy it is to build a fully functional, secure cloud native application in hours rather than in days or weeks.
@@ -116,9 +118,10 @@ export default App;
 
 ### Cleanup
 
-```bash 
-amplify delete
-```
+1. `amplify delete`
+2. Delete S3 buckets
+3. Delete IAM user amplify-*
+4. Delete Cloud9 Instance
 
 
 ## Resources
