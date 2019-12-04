@@ -1,8 +1,10 @@
 # DOP334-R - Cloud Native App Dev with AWS Amplify and React
 
+
 ![Github Repo URL](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fdave-malone%2Freact-amplified-demo&chs=180x180&choe=UTF-8&chld=L|2)
 
-https://git.io/JeD21
+### https://git.io/JeD21
+
 
 The following demonstration includes the use of AWS Cloud9, a cloud-based IDE, to build a fully serverless cloud native application in React using the Amplify toolchain as well as the Amplify Javascript library.
 
